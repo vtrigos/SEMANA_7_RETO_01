@@ -1,0 +1,42 @@
+/* FOOTER */
+
+.foot {
+    background-color: $secundario;
+    padding: 4rem 0 0;
+}
+
+.gridfoot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    color: $blanco;
+    font-size: 1.3rem;
+    line-height: 2rem;
+
+    &__content {
+        padding-bottom: 3rem;
+
+        & h2 {
+            padding-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        & ul {
+            list-style: none;
+
+            & li a {
+                text-decoration: none;
+                color: $blanco;
+            }
+
+        }
+    }
+}
+
+.copyright {
+    background-color: $primario;
+    padding: 20px;
+    font-size: 1.3rem;
+    color: $blanco;
+    text-align: center;
+}

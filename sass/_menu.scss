@@ -1,0 +1,36 @@
+/* MENU */
+
+.head_container {
+    height: $altohead;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_width {
+    width: 18rem;
+}
+
+.menu {
+
+    &__item {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__link {
+        color: $negro;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    &--activate {
+        color: $blanco;
+        background-color: $primario;
+        border-radius: 5px;
+        padding: 20px;
+    }
+}
